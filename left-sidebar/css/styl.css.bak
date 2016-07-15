@@ -1,0 +1,457 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url(../fonts/MyriadWebPro.ttf);
+}
+@font-face {
+  font-family: MyriadPro;
+  font-weight:300;
+  src: url(../fonts/MyriadPro-Light.otf) format(opentype);
+}
+::-webkit-input-placeholder {
+   color: #333;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+}
+
+:-ms-input-placeholder {
+   color: #333;
+}
+body {
+  color:#333;
+  font-family:MyriadPro;
+}
+#map {
+  width:100%;
+  height:500px;
+}
+#s_contact {
+  padding:5.5vw 0px;
+}
+#s_c_form>div>input,#s_c_form>div>textarea, #s_c_form>div>div>button{
+  border-radius:0px;
+  border:1px solid #333;
+  padding:30px 20px;
+  cursor:pointer;
+  width:100%;
+  color:#333;
+  font-weight:300;
+  cursor:pointer;
+  background:none;
+  height:auto;
+}
+#s_c_form>div>div>button{
+  color:#fff;
+  padding:20px 30px;
+  background:#03defe;
+  border:none;
+  font-weight:normal;
+}
+#s_c_form>div>select {
+    background: url(../img/select_arrow.png) top 38px right 25px no-repeat,none;
+    background-size: 15px;
+    text-align: left;
+    color: #333;
+    color: rgba(51,51,51,0.5);
+    border: 1px solid #333;
+    border-radius: 0px;
+    font-weight: 300;
+    padding:30px 48px 30 20px;
+    height: auto;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+.s_c_tittle {
+  font-size:30px;
+  color:#333;
+  font-weight:300;
+  margin-bottom:60px;
+}
+.s_aU_mockup {
+  text-align:center;
+}
+.s_aU_mockup>div>img {
+  max-height:700px;
+  max-width:100%;
+}
+
+.s_aU_mockup>div>a{
+  position:absolute;
+  bottom:20px;
+  left:0px;
+  width:100%;
+}
+.s_aU_mockup>div>a>button{
+  padding:30px;
+  background:#03defe;
+  border:0px;
+  color:#fff;
+  width:40%;
+}
+.s_aU_element>p:first-child {
+  text-transform:uppercase;
+  font-size:3vw;
+  color:#03defe;
+  font-weight:bold;
+  text-align:left;
+  word-spacing:10px;
+}
+.s_aU_element {
+  margin-top:3vw;
+  position:relative;
+}
+.s_aU_element:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+.s_aU_element>p{
+  color:#8e8e8e;
+  font-weight:300;
+  text-align:justify;
+  margin-bottom:2vw;
+}
+.s_aU_element>span{
+  color:#8e8e8e;
+  font-size:1.3vw;
+  font-weight:300;
+}
+.s_aU_element>span>div>img{
+  margin-right:1vw;
+  width:50px;
+}
+#s_aboutUs {
+  padding-bottom:60px;
+}
+.s_c_element {
+  margin-bottom:60px;
+}
+.s_c_element>span:after{
+display:block;
+content:' ';
+clear:both;
+margin-bottom:10px;
+}
+.s_c_element>p {
+  font-size:30px;
+  font-weight:300;
+}
+.s_c_element>span {
+  font-size:20px;
+  font-weight:300;
+  color:#333;
+}
+.s_c_element>span>img {
+  margin-right:20px;
+}
+.s_c_element>.s_c_active{
+  color:#03defe;
+}
+.s_c_tittle:after{
+  content:' ';
+  display:block;
+  width:40px;
+  height:3px;
+  background:#03defe;
+  clear:both;
+}
+.container {
+  width:90%;
+}
+#bs-example-navbar-collapse-1 > a {
+  padding:6px 12px;
+}
+.navbar-brand {
+  height: auto;
+  padding:0px;
+}
+.n_menu_item {
+  font-size:20px;
+  background:none;
+  font-weight:300;
+}
+.n_menu_item:hover{
+  color:#03defe;
+}
+.navbar-default {
+  background:#fff;
+  border:0px;
+  box-shadow:none;
+  margin:0px;
+}
+.menu_active {
+  color:#03defe;
+}
+
+footer {
+  background:#222;
+  color:#929292;
+  padding:55px 0px;
+  margin:0px;
+}
+.f_container>span {
+  color:#929292;
+}
+.s_i_header>p {
+  margin:0px;
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:3.5vw;
+  line-height:5vw;
+  margin:0px;
+}
+.s_i_header {
+  margin-bottom:2vw;
+}
+.s_i_header>p:last-child {
+  font-size:8vw;
+}
+#s_image {
+  background-image:url("../img/bridge.png");
+  background-size:cover;
+  padding:5.5vw 0px;
+}
+#s_about {
+  padding:5.5vw 0px;
+  background: url(../img/patient.png) bottom -10px right -5px no-repeat,#fff;
+}
+.s_i_content>div{
+  background-color:rgba(3,222,254,0.63);
+  padding:20px;
+  color:#fff;
+  font-size:30px;
+  margin-bottom:15px;
+}
+.s_a_content>p{
+  margin:0px;
+  margin-bottom:30px;
+  padding:0px;
+  font-size:18px;
+  font-weight:300;
+  float:none;
+  text-align:justify;
+}
+#s_offer {
+    padding: 5.5vw 0px;
+    background-image: url("../img/chat.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.s_a_content >button {
+  background: none;
+  border: 1px solid;
+  border-radius: 0px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #03defe;
+  padding: 28px;
+  margin-top: 40px;
+}
+.s_o_element{
+  border:3px solid #fff;
+  color:#fff;
+  padding:3vw 0px;
+  text-align:center;
+  min-height:472px;
+}
+.s_o_element:first-child {
+  padding-left:0px;
+}
+.s_o_element:last-child{
+  padding-right:0px;
+}
+.s_o_element:after{
+  display:block;
+  float:none;
+  clear:both;
+  content:' ';
+}
+.s_o_element > div {
+  padding:0px;
+}
+.s_o_imgVertical {
+  height:200px;
+  position:relative;
+}
+.s_o_imgVertical >.dummy{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+.dummy:after{
+  content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.s_o_imgVertical>.dummy>img {
+  display:inline-block;
+  vertical-align:middle;
+}
+.s_o_element > div > p{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 2vw;
+}
+.s_o_element > div > #podnoszenie{
+	font-size: 20px;
+	line-height: 0;
+}
+.s_o_element >div >button {
+  background:none;
+  border:1px solid #fff;
+  width:100%;
+  color:#fff;
+  font-weight:300;
+  font-size:20px;
+  padding:20px;
+}
+.s_i_content>div>i{
+  font-size:40px;
+  margin-right:1vw;
+  vertical-align:middle;
+}
+/* DAWID */
+#header_small {
+  background-image: url(../img/bridge_small.png);
+  background-size: cover;
+  padding: 90px 0;
+  margin-bottom: 60px;
+}
+#header_small > div > div > div {
+  padding: 0;
+}
+#header_small p {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+
+#header_small p:first-child {
+  font-weight: normal;
+  font-size: 45px;
+}
+#dieseases > div > div > div > div > div {
+  border: solid;
+  border-width: 3px;
+  border-color: #29e0fe;
+  padding: 25px 70px;
+  margin-bottom: 30px;
+}
+#dieseases > div, #dieseases > div > div > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+#dieseases img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.dieseases_text {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.dieseases_text p:first-child {
+  color: #29e0fe;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dieseases_text p {
+  color: #8e8e8e;
+  font-weight: 300;
+}
+.btn_read_more {
+  width: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #29e0fe;
+  border: none;
+  padding: 20px 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+}
+.line_height_alter1 {
+  line-height: 70px !important;
+}
+#offer i {
+  font-size: 55px;
+  color: #1dc7e4;
+}
+.offer_text p:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #29e0fe;
+  font-size: 35px;
+}
+.offer_text p{
+  color: #8e8e8e;
+  font-weight: 300;
+  text-align: justify;
+}
+.offer_text span {
+  display: none;
+}
+#offer .row:first-child {
+  margin-top: 60px;
+}
+#offer .row {
+  margin-bottom: 30px;
+}
+#offer .row:last-child {
+  margin-bottom: 90px;
+}
+#s_offer > div > div > div:first-child {
+  padding-left: 0;
+}
+#s_offer > div > div > div:last-child {
+  padding-right: 0;
+}
+.offer_text #subtitle {
+	font-size: 23px;
+	color: #29e0fe;
+	font-weight: bold;
+}
+#dieseases > div > div > div > div > div {
+	min-height: 61%;
+}
+#cennik_title {
+	color: #ffffff;
+  font-size: 90px !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+#pricing > div > .row:first-child, #pricing > div > .row:last-child {
+   background-color: #ffffff;
+}
+#pricing > div > .row {
+	 height: 100px;
+   background-color: #f1f1f1;
+   vertical-align: middle;
+   margin-bottom: 20px;
+   line-height: 100px;
+}
+.pricing_offer > div > span {
+	font-size: 20px;
+	font-weight: 300;
+}
+.pricing_offer:first-child > div > span {
+	font-size: 30px;
+}
+.pricing_offer > div > span img {
+	display: inline-block;
+}

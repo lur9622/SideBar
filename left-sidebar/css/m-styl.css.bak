@@ -1,0 +1,92 @@
+@media(max-width:767px){
+  .n_menu_item {
+    width:100%;
+  }
+  .s_aU_element>span{
+    font-size:19px;
+  }
+  .s_aU_mockup>div>a>button {
+    width:70%;
+  }
+  /* DAWID */
+  #header_small p:first-child {
+    line-height: 20px;
+  }
+  #header_small p {
+    line-height: 72px;
+  }
+  .line_height_alter1 {
+    line-height: 95px !important;
+  }
+  .navbar{
+    padding: 20px 0;
+  }
+	.offer_text p:first-child {
+    font-size: 28px;
+    text-align: center;
+  }
+  #header_small {
+    text-align: center;
+  }
+  #header_small p {
+    font-size: 57px;
+  }
+  #header_small span {
+    display: none;
+  }
+  #s_offer > div > div > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .s_aU_element>p:first-child{
+    font-size:25px;
+  }
+}
+@media(max-width:905px){
+  .n_menu_item {
+    padding: 6px 3px;
+    font-size: 19px;
+  }
+}
+@media(max-width:992px){
+  .s_a_content >button {
+    width:100%;
+  }
+  .s_o_element >div >button {
+    width:80%;
+  }
+  .s_o_element >div >p {
+    font-size:5vw;
+  }
+  .s_o_element {
+    margin-bottom:25px;
+  }
+  #s_offer > div > div > div {
+    padding: 0;
+  }
+  .s_aU_element>span{
+    font-size:25px;
+  }
+  .s_aU_element>p:first-child{
+    text-align:center;
+  }
+}
+@media(max-width:1180px){
+  .s_i_content>div{
+    font-size:16px !important;
+  }
+  .s_i_content>div>i{
+    font-size:26px !important;
+  }
+}
+@media(max-width:1400px){
+}
+@media(max-width:1545px){
+  .s_i_content>div{
+    font-size:20px;
+  }
+  .s_i_content>div>i{
+    font-size:30px;
+  }
+}
+
